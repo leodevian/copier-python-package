@@ -1,0 +1,37 @@
+# Miscellaneous
+.DS_Store
+.cache/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Environments
+.nox/
+.tox/
+.venv
+
+# Unit testing
+.hypothesis/
+.pytest_cache/
+
+# Coverage reporting
+*.lcov
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Type checking
+.dmypy.json
+.mypy_cache/
+
+# Linting
+.ruff_cache/
+
+# Documentation
+/site/
+
+# IDEs
+.idea/
+.vscode/
