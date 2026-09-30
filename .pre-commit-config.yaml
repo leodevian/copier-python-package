@@ -25,7 +25,7 @@ repos:
         args: [--enable=all]
 
   - repo: https://github.com/crate-ci/typos
-    rev: 4141ff14cb566df76c473c786332c186a4fd71d1  # frozen: v1.50.3
+    rev: b859c0df7f391deba73030f79b957e62b4d81dc6  # frozen: varcon-core-v5.0.7
     hooks:
       - id: typos
 
