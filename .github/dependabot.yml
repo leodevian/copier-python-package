@@ -21,3 +21,7 @@ updates:
       pre-commit:
         patterns:
           - '*'
+    ignore:
+      # typos tags its sub-crates.
+      - dependency-name: https://github.com/crate-ci/typos
+        versions: ['>=2']
