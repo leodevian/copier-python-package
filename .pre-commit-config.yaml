@@ -12,7 +12,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: a56c0b927e6465d37cae3e97d35d4d18ab2b96cd  # frozen: v0.16.9
+    rev: f368fb366ff7f2f808dd324b83a6d32267799e19  # frozen: v0.17.2
     hooks:
       - id: ruff-check
         args: [--fix]
@@ -25,24 +25,24 @@ repos:
         args: [--enable=all]
 
   - repo: https://github.com/crate-ci/typos
-    rev: 4141ff14cb566df76c473c786332c186a4fd71d1  # frozen: v1.50.3
+    rev: 7f9d0819ca1c008ade73f4b41fa9d258d48f605b  # frozen: v1.51.1
     hooks:
       - id: typos
 
   - repo: https://github.com/rvben/rumdl-pre-commit
-    rev: 83cecb6b523a053d7d3dfdc4798d705b505a88f9  # frozen: v0.2.78
+    rev: 03a7d1a4936b5889602852175bca2d39acb3281e  # frozen: v0.3.0
     hooks:
       - id: rumdl
         args: [--fix]
       - id: rumdl-fmt
 
   - repo: https://github.com/zizmorcore/zizmor-pre-commit
-    rev: fa412071e4f5d44d44f9e365f4676f9df92456a2  # frozen: v1.30.1
+    rev: c92afdf2c6ca336aaa8f39e2bd8d48f62dbd8e1f  # frozen: v1.31.1
     hooks:
       - id: zizmor
         args: [--no-progress, --fix]
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: 054e4a278e11abb9b8df6c103fa64f544d468ee5  # frozen: v4.19.0
+    rev: f690817de25831a37094ca35af5ada05c909ff1c  # frozen: v4.19.3
     hooks:
       - id: commitizen
