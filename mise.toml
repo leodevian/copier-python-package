@@ -1,5 +1,5 @@
 [tools]
-prek = "latest"
+pre-commit = "latest"
 python = ["3.11", "3.12", "3.13", "3.14", "3.15"]
 uv = "latest"
 
@@ -7,4 +7,4 @@ uv = "latest"
 python.uv_venv_auto = "create|source"
 
 [hooks]
-postinstall = "prek install"
+postinstall = "pre-commit install"
